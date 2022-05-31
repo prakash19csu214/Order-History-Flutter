@@ -9,21 +9,17 @@ class Dashboard extends StatefulWidget {
 }
 
 class _DashboardState extends State<Dashboard> {
-
-
   @override
   Widget build(BuildContext context) {
-    
     return Scaffold(
-      appBar: AppBar(),
-      
+      appBar: AppBar(title: const Text('Order History')),
       body: SafeArea(
           child: Container(
-              padding: EdgeInsets.only(top: 10),
-              // child: ViewProduct(),//You can try this widget first to confirm firebase integration
-              child:Text("Your widget") 
-              )
-          ),
+        padding: EdgeInsets.only(top: 10),
+        child:
+            ViewProduct(), //You can try this widget first to confirm firebase integration
+        // child:Text("Your widget")
+      )),
     );
   }
 }
