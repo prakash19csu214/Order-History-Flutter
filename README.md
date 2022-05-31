@@ -1,6 +1,8 @@
+Team E
+By Prakash Singh 19CSU214
+
 2nd Module -: 
-Order History – show all the orders done by user, user should be
-able to cancel any order before delivery.
+Order History – show all the orders done by user.
 
 
 # shopping_buyer_app

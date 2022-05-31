@@ -16,9 +16,7 @@ class _DashboardState extends State<Dashboard> {
       body: SafeArea(
           child: Container(
         padding: EdgeInsets.only(top: 10),
-        child:
-            ViewProduct(), //You can try this widget first to confirm firebase integration
-        // child:Text("Your widget")
+        child: OrderHistory(),
       )),
     );
   }
